@@ -1,0 +1,29 @@
+name: fetch-jingmao-591
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - fetch_jingmao_591.py
+      - .github/workflows/fetch-jingmao-591.yml
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install requests
+      - run: python fetch_jingmao_591.py
+      - name: Commit fetched data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add 591_export
+          git commit -m "Add fetched Jingmao 591 data"
+          git push

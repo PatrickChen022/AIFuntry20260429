@@ -3,5 +3,9 @@
   "reported_total_page": 6,
   "raw_item_count": 103,
   "deduped_count": 103,
-  "base64_chars": 4352
+  "base64_chars": 4352,
+  "chunk_size": 544,
+  "chunk_count": 8,
+  "csv_sha256": "b1b5fd1c1e9d82aeb8671f5a1910e15a13f4b67f1c311c8d9f327ab71d5bb9ae",
+  "gzip_sha256": "811a0296f32c67b8e21bef45ee506f9df7c54b44d8a0f9a18a94b44d21dc352a"
 }

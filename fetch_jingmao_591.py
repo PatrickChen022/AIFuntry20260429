@@ -3,6 +3,7 @@ from __future__ import annotations
 import base64
 import csv
 import gzip
+import hashlib
 import json
 import sys
 import time
@@ -134,17 +135,26 @@ def main() -> int:
                 "來源網址": SOURCE_URL,
             })
 
-    compressed = gzip.compress(csv_path.read_bytes(), compresslevel=9)
-    (OUT_DIR / "jingmao_591_103.csv.gz.b64.txt").write_text(
-        base64.b64encode(compressed).decode("ascii"), encoding="ascii"
-    )
+    csv_bytes = csv_path.read_bytes()
+    compressed = gzip.compress(csv_bytes, compresslevel=9)
+    b64_text = base64.b64encode(compressed).decode("ascii")
+    (OUT_DIR / "jingmao_591_103.csv.gz.b64.txt").write_text(b64_text, encoding="ascii")
+
+    chunk_size = 544
+    chunks = [b64_text[i:i + chunk_size] for i in range(0, len(b64_text), chunk_size)]
+    for idx, chunk in enumerate(chunks, start=1):
+        (OUT_DIR / f"b64_chunk_{idx:02d}.txt").write_text(chunk, encoding="ascii")
 
     summary = {
         "reported_total": total,
         "reported_total_page": total_page,
         "raw_item_count": len(all_items),
         "deduped_count": len(deduped),
-        "base64_chars": len(base64.b64encode(compressed)),
+        "base64_chars": len(b64_text),
+        "chunk_size": chunk_size,
+        "chunk_count": len(chunks),
+        "csv_sha256": hashlib.sha256(csv_bytes).hexdigest(),
+        "gzip_sha256": hashlib.sha256(compressed).hexdigest(),
     }
     (OUT_DIR / "summary.json").write_text(json.dumps(summary, ensure_ascii=False, indent=2), encoding="utf-8")
     print(json.dumps(summary, ensure_ascii=False))

@@ -1,6 +1,8 @@
 from __future__ import annotations
 
+import base64
 import csv
+import gzip
 import json
 import sys
 import time
@@ -97,7 +99,8 @@ def main() -> int:
         "總坪數_坪_含車位", "車位數", "車位類型", "房型", "特殊交易", "特殊交易說明",
         "樓層標籤", "地址", "建案名稱", "來源網址"
     ]
-    with (OUT_DIR / "jingmao_591_103.csv").open("w", encoding="utf-8-sig", newline="") as fh:
+    csv_path = OUT_DIR / "jingmao_591_103.csv"
+    with csv_path.open("w", encoding="utf-8-sig", newline="") as fh:
         writer = csv.DictWriter(fh, fieldnames=fields)
         writer.writeheader()
         for item in deduped:
@@ -131,11 +134,17 @@ def main() -> int:
                 "來源網址": SOURCE_URL,
             })
 
+    compressed = gzip.compress(csv_path.read_bytes(), compresslevel=9)
+    (OUT_DIR / "jingmao_591_103.csv.gz.b64.txt").write_text(
+        base64.b64encode(compressed).decode("ascii"), encoding="ascii"
+    )
+
     summary = {
         "reported_total": total,
         "reported_total_page": total_page,
         "raw_item_count": len(all_items),
         "deduped_count": len(deduped),
+        "base64_chars": len(base64.b64encode(compressed)),
     }
     (OUT_DIR / "summary.json").write_text(json.dumps(summary, ensure_ascii=False, indent=2), encoding="utf-8")
     print(json.dumps(summary, ensure_ascii=False))

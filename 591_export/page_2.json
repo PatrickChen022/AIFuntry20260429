@@ -1,0 +1,1573 @@
+{
+  "status": 1,
+  "data": {
+    "items": [
+      {
+        "id": 6659398,
+        "date": "113-08-09",
+        "trans_date": "2024-08-09",
+        "month": "113-08",
+        "address": "桃園市桃園區正光路與力行路交叉口",
+        "layout": "0房",
+        "layout_v2": "0房0廳",
+        "room_search": 5,
+        "build_area": "83.73坪",
+        "build_area_v": {
+          "area": "83.7",
+          "unit": "坪"
+        },
+        "building_area": {
+          "area": "68.6",
+          "unit": "坪"
+        },
+        "building_total_price": {
+          "price": "3,526",
+          "unit": "萬"
+        },
+        "real_park_area": {
+          "area": "15.1",
+          "unit": "坪",
+          "estimate": 0
+        },
+        "unit_price": {
+          "price": "51.4",
+          "unit": "萬/坪"
+        },
+        "src_unit_price": {
+          "price": "46.7",
+          "unit": "萬/坪"
+        },
+        "total_price": "3,906萬",
+        "total_price_v": "3,906",
+        "price_tips": "",
+        "context": "",
+        "is_special": 0,
+        "has_park": "1",
+        "unit_has_park": "0",
+        "shift_floor": "4樓",
+        "shift_floor_val": "4",
+        "total_floor": "23樓",
+        "build_purpose_str": "住宅",
+        "real_park_total_price": "380",
+        "real_park_total_price_v": {
+          "price": "380",
+          "unit": "萬",
+          "estimate": 0
+        },
+        "community": {
+          "id": 5886292,
+          "name": "京懋泰閤",
+          "build_type": 1
+        },
+        "trans_rep_year": "113年",
+        "tag": [
+          "低樓層",
+          "平面車位"
+        ],
+        "park_type_str": "平面車位",
+        "match_type": 0,
+        "tips": "",
+        "park_count": 2,
+        "history_trans_count": 1,
+        "is_new_tag": 0,
+        "assoc_type": 0,
+        "business_circle_id": 0,
+        "build_date": "",
+        "original_shift_floor": "4",
+        "original_total_floor": 23,
+        "price_error": 0
+      },
+      {
+        "id": 6659399,
+        "date": "113-08-03",
+        "trans_date": "2024-08-03",
+        "month": "113-08",
+        "address": "桃園市桃園區正光路與力行路交叉口",
+        "layout": "0房",
+        "layout_v2": "0房0廳",
+        "room_search": 5,
+        "build_area": "76.18坪",
+        "build_area_v": {
+          "area": "76.2",
+          "unit": "坪"
+        },
+        "building_area": {
+          "area": "68.6",
+          "unit": "坪"
+        },
+        "building_total_price": {
+          "price": "3,731",
+          "unit": "萬"
+        },
+        "real_park_area": {
+          "area": "7.6",
+          "unit": "坪",
+          "estimate": 0
+        },
+        "unit_price": {
+          "price": "54.4",
+          "unit": "萬/坪"
+        },
+        "src_unit_price": {
+          "price": "51.9",
+          "unit": "萬/坪"
+        },
+        "total_price": "3,951萬",
+        "total_price_v": "3,951",
+        "price_tips": "",
+        "context": "",
+        "is_special": 0,
+        "has_park": "1",
+        "unit_has_park": "0",
+        "shift_floor": "20樓",
+        "shift_floor_val": "20",
+        "total_floor": "23樓",
+        "build_purpose_str": "住宅",
+        "real_park_total_price": "220",
+        "real_park_total_price_v": {
+          "price": "220",
+          "unit": "萬",
+          "estimate": 0
+        },
+        "community": {
+          "id": 5886292,
+          "name": "京懋泰閤",
+          "build_type": 1
+        },
+        "trans_rep_year": "113年",
+        "tag": [
+          "高樓層",
+          "平面車位"
+        ],
+        "park_type_str": "平面車位",
+        "match_type": 0,
+        "tips": "",
+        "park_count": 1,
+        "history_trans_count": 1,
+        "is_new_tag": 0,
+        "assoc_type": 0,
+        "business_circle_id": 0,
+        "build_date": "",
+        "original_shift_floor": "20",
+        "original_total_floor": 23,
+        "price_error": 0
+      },
+      {
+        "id": 6659400,
+        "date": "113-08-01",
+        "trans_date": "2024-08-01",
+        "month": "113-08",
+        "address": "桃園市桃園區正光路與力行路交叉口",
+        "layout": "0房",
+        "layout_v2": "0房0廳",
+        "room_search": 5,
+        "build_area": "81.52坪",
+        "build_area_v": {
+          "area": "81.5",
+          "unit": "坪"
+        },
+        "building_area": {
+          "area": "66.4",
+          "unit": "坪"
+        },
+        "building_total_price": {
+          "price": "3,354",
+          "unit": "萬"
+        },
+        "real_park_area": {
+          "area": "15.1",
+          "unit": "坪",
+          "estimate": 0
+        },
+        "unit_price": {
+          "price": "50.5",
+          "unit": "萬/坪"
+        },
+        "src_unit_price": {
+          "price": "45.8",
+          "unit": "萬/坪"
+        },
+        "total_price": "3,734萬",
+        "total_price_v": "3,734",
+        "price_tips": "",
+        "context": "",
+        "is_special": 0,
+        "has_park": "1",
+        "unit_has_park": "0",
+        "shift_floor": "11樓",
+        "shift_floor_val": "11",
+        "total_floor": "23樓",
+        "build_purpose_str": "住宅",
+        "real_park_total_price": "380",
+        "real_park_total_price_v": {
+          "price": "380",
+          "unit": "萬",
+          "estimate": 0
+        },
+        "community": {
+          "id": 5886292,
+          "name": "京懋泰閤",
+          "build_type": 1
+        },
+        "trans_rep_year": "113年",
+        "tag": [
+          "中樓層",
+          "平面車位"
+        ],
+        "park_type_str": "平面車位",
+        "match_type": 0,
+        "tips": "",
+        "park_count": 2,
+        "history_trans_count": 1,
+        "is_new_tag": 0,
+        "assoc_type": 0,
+        "business_circle_id": 0,
+        "build_date": "",
+        "original_shift_floor": "11",
+        "original_total_floor": 23,
+        "price_error": 0
+      },
+      {
+        "id": 6641813,
+        "date": "113-07-28",
+        "trans_date": "2024-07-28",
+        "month": "113-07",
+        "address": "桃園市桃園區正光路與力行路交叉口",
+        "layout": "0房",
+        "layout_v2": "0房0廳",
+        "room_search": 5,
+        "build_area": "90.44坪",
+        "build_area_v": {
+          "area": "90.4",
+          "unit": "坪"
+        },
+        "building_area": {
+          "area": "75.3",
+          "unit": "坪"
+        },
+        "building_total_price": {
+          "price": "3,950",
+          "unit": "萬"
+        },
+        "real_park_area": {
+          "area": "15.1",
+          "unit": "坪",
+          "estimate": 0
+        },
+        "unit_price": {
+          "price": "52.4",
+          "unit": "萬/坪"
+        },
+        "src_unit_price": {
+          "price": "47.7",
+          "unit": "萬/坪"
+        },
+        "total_price": "4,310萬",
+        "total_price_v": "4,310",
+        "price_tips": "",
+        "context": "",
+        "is_special": 0,
+        "has_park": "1",
+        "unit_has_park": "0",
+        "shift_floor": "14樓",
+        "shift_floor_val": "14",
+        "total_floor": "23樓",
+        "build_purpose_str": "住宅",
+        "real_park_total_price": "360",
+        "real_park_total_price_v": {
+          "price": "360",
+          "unit": "萬",
+          "estimate": 0
+        },
+        "community": {
+          "id": 5886292,
+          "name": "京懋泰閤",
+          "build_type": 1
+        },
+        "trans_rep_year": "113年",
+        "tag": [
+          "中樓層",
+          "平面車位"
+        ],
+        "park_type_str": "平面車位",
+        "match_type": 0,
+        "tips": "",
+        "park_count": 2,
+        "history_trans_count": 1,
+        "is_new_tag": 0,
+        "assoc_type": 0,
+        "business_circle_id": 0,
+        "build_date": "",
+        "original_shift_floor": "14",
+        "original_total_floor": 23,
+        "price_error": 0
+      },
+      {
+        "id": 6641816,
+        "date": "113-07-28",
+        "trans_date": "2024-07-28",
+        "month": "113-07",
+        "address": "桃園市桃園區正光路與力行路交叉口",
+        "layout": "0房",
+        "layout_v2": "0房0廳",
+        "room_search": 5,
+        "build_area": "81.52坪",
+        "build_area_v": {
+          "area": "81.5",
+          "unit": "坪"
+        },
+        "building_area": {
+          "area": "66.4",
+          "unit": "坪"
+        },
+        "building_total_price": {
+          "price": "3,239",
+          "unit": "萬"
+        },
+        "real_park_area": {
+          "area": "15.1",
+          "unit": "坪",
+          "estimate": 0
+        },
+        "unit_price": {
+          "price": "48.8",
+          "unit": "萬/坪"
+        },
+        "src_unit_price": {
+          "price": "44.1",
+          "unit": "萬/坪"
+        },
+        "total_price": "3,599萬",
+        "total_price_v": "3,599",
+        "price_tips": "",
+        "context": "",
+        "is_special": 0,
+        "has_park": "1",
+        "unit_has_park": "0",
+        "shift_floor": "14樓",
+        "shift_floor_val": "14",
+        "total_floor": "23樓",
+        "build_purpose_str": "住宅",
+        "real_park_total_price": "360",
+        "real_park_total_price_v": {
+          "price": "360",
+          "unit": "萬",
+          "estimate": 0
+        },
+        "community": {
+          "id": 5886292,
+          "name": "京懋泰閤",
+          "build_type": 1
+        },
+        "trans_rep_year": "113年",
+        "tag": [
+          "中樓層",
+          "平面車位"
+        ],
+        "park_type_str": "平面車位",
+        "match_type": 0,
+        "tips": "",
+        "park_count": 2,
+        "history_trans_count": 1,
+        "is_new_tag": 0,
+        "assoc_type": 0,
+        "business_circle_id": 0,
+        "build_date": "",
+        "original_shift_floor": "14",
+        "original_total_floor": 23,
+        "price_error": 0
+      },
+      {
+        "id": 6641811,
+        "date": "113-07-27",
+        "trans_date": "2024-07-27",
+        "month": "113-07",
+        "address": "桃園市桃園區正光路與力行路交叉口",
+        "layout": "0房",
+        "layout_v2": "0房0廳",
+        "room_search": 5,
+        "build_area": "90.44坪",
+        "build_area_v": {
+          "area": "90.4",
+          "unit": "坪"
+        },
+        "building_area": {
+          "area": "75.3",
+          "unit": "坪"
+        },
+        "building_total_price": {
+          "price": "3,918",
+          "unit": "萬"
+        },
+        "real_park_area": {
+          "area": "15.1",
+          "unit": "坪",
+          "estimate": 0
+        },
+        "unit_price": {
+          "price": "52.0",
+          "unit": "萬/坪"
+        },
+        "src_unit_price": {
+          "price": "47.3",
+          "unit": "萬/坪"
+        },
+        "total_price": "4,278萬",
+        "total_price_v": "4,278",
+        "price_tips": "",
+        "context": "",
+        "is_special": 0,
+        "has_park": "1",
+        "unit_has_park": "0",
+        "shift_floor": "12樓",
+        "shift_floor_val": "12",
+        "total_floor": "23樓",
+        "build_purpose_str": "住宅",
+        "real_park_total_price": "360",
+        "real_park_total_price_v": {
+          "price": "360",
+          "unit": "萬",
+          "estimate": 0
+        },
+        "community": {
+          "id": 5886292,
+          "name": "京懋泰閤",
+          "build_type": 1
+        },
+        "trans_rep_year": "113年",
+        "tag": [
+          "中樓層",
+          "平面車位"
+        ],
+        "park_type_str": "平面車位",
+        "match_type": 0,
+        "tips": "",
+        "park_count": 2,
+        "history_trans_count": 1,
+        "is_new_tag": 0,
+        "assoc_type": 0,
+        "business_circle_id": 0,
+        "build_date": "",
+        "original_shift_floor": "12",
+        "original_total_floor": 23,
+        "price_error": 0
+      },
+      {
+        "id": 6641817,
+        "date": "113-07-23",
+        "trans_date": "2024-07-23",
+        "month": "113-07",
+        "address": "桃園市桃園區正光路與力行路交叉口",
+        "layout": "0房",
+        "layout_v2": "0房0廳",
+        "room_search": 5,
+        "build_area": "81.52坪",
+        "build_area_v": {
+          "area": "81.5",
+          "unit": "坪"
+        },
+        "building_area": {
+          "area": "66.4",
+          "unit": "坪"
+        },
+        "building_total_price": {
+          "price": "3,486",
+          "unit": "萬"
+        },
+        "real_park_area": {
+          "area": "15.1",
+          "unit": "坪",
+          "estimate": 0
+        },
+        "unit_price": {
+          "price": "52.5",
+          "unit": "萬/坪"
+        },
+        "src_unit_price": {
+          "price": "47.2",
+          "unit": "萬/坪"
+        },
+        "total_price": "3,846萬",
+        "total_price_v": "3,846",
+        "price_tips": "",
+        "context": "",
+        "is_special": 0,
+        "has_park": "1",
+        "unit_has_park": "0",
+        "shift_floor": "19樓",
+        "shift_floor_val": "19",
+        "total_floor": "23樓",
+        "build_purpose_str": "住宅",
+        "real_park_total_price": "360",
+        "real_park_total_price_v": {
+          "price": "360",
+          "unit": "萬",
+          "estimate": 0
+        },
+        "community": {
+          "id": 5886292,
+          "name": "京懋泰閤",
+          "build_type": 1
+        },
+        "trans_rep_year": "113年",
+        "tag": [
+          "高樓層",
+          "平面車位"
+        ],
+        "park_type_str": "平面車位",
+        "match_type": 0,
+        "tips": "",
+        "park_count": 2,
+        "history_trans_count": 1,
+        "is_new_tag": 0,
+        "assoc_type": 0,
+        "business_circle_id": 0,
+        "build_date": "",
+        "original_shift_floor": "19",
+        "original_total_floor": 23,
+        "price_error": 0
+      },
+      {
+        "id": 6641812,
+        "date": "113-07-23",
+        "trans_date": "2024-07-23",
+        "month": "113-07",
+        "address": "桃園市桃園區正光路與力行路交叉口",
+        "layout": "0房",
+        "layout_v2": "0房0廳",
+        "room_search": 5,
+        "build_area": "83.73坪",
+        "build_area_v": {
+          "area": "83.7",
+          "unit": "坪"
+        },
+        "building_area": {
+          "area": "68.6",
+          "unit": "坪"
+        },
+        "building_total_price": {
+          "price": "3,388",
+          "unit": "萬"
+        },
+        "real_park_area": {
+          "area": "15.1",
+          "unit": "坪",
+          "estimate": 0
+        },
+        "unit_price": {
+          "price": "49.4",
+          "unit": "萬/坪"
+        },
+        "src_unit_price": {
+          "price": "45.2",
+          "unit": "萬/坪"
+        },
+        "total_price": "3,788萬",
+        "total_price_v": "3,788",
+        "price_tips": "",
+        "context": "",
+        "is_special": 0,
+        "has_park": "1",
+        "unit_has_park": "0",
+        "shift_floor": "4樓",
+        "shift_floor_val": "4",
+        "total_floor": "23樓",
+        "build_purpose_str": "住宅",
+        "real_park_total_price": "400",
+        "real_park_total_price_v": {
+          "price": "400",
+          "unit": "萬",
+          "estimate": 0
+        },
+        "community": {
+          "id": 5886292,
+          "name": "京懋泰閤",
+          "build_type": 1
+        },
+        "trans_rep_year": "113年",
+        "tag": [
+          "低樓層",
+          "平面車位"
+        ],
+        "park_type_str": "平面車位",
+        "match_type": 0,
+        "tips": "",
+        "park_count": 2,
+        "history_trans_count": 1,
+        "is_new_tag": 0,
+        "assoc_type": 0,
+        "business_circle_id": 0,
+        "build_date": "",
+        "original_shift_floor": "4",
+        "original_total_floor": 23,
+        "price_error": 0
+      },
+      {
+        "id": 6641814,
+        "date": "113-07-22",
+        "trans_date": "2024-07-22",
+        "month": "113-07",
+        "address": "桃園市桃園區正光路與力行路交叉口",
+        "layout": "0房",
+        "layout_v2": "0房0廳",
+        "room_search": 5,
+        "build_area": "73.97坪",
+        "build_area_v": {
+          "area": "74.0",
+          "unit": "坪"
+        },
+        "building_area": {
+          "area": "66.4",
+          "unit": "坪"
+        },
+        "building_total_price": {
+          "price": "3,246",
+          "unit": "萬"
+        },
+        "real_park_area": {
+          "area": "7.6",
+          "unit": "坪",
+          "estimate": 0
+        },
+        "unit_price": {
+          "price": "48.9",
+          "unit": "萬/坪"
+        },
+        "src_unit_price": {
+          "price": "46.6",
+          "unit": "萬/坪"
+        },
+        "total_price": "3,446萬",
+        "total_price_v": "3,446",
+        "price_tips": "",
+        "context": "",
+        "is_special": 0,
+        "has_park": "1",
+        "unit_has_park": "0",
+        "shift_floor": "6樓",
+        "shift_floor_val": "6",
+        "total_floor": "23樓",
+        "build_purpose_str": "住宅",
+        "real_park_total_price": "200",
+        "real_park_total_price_v": {
+          "price": "200",
+          "unit": "萬",
+          "estimate": 0
+        },
+        "community": {
+          "id": 5886292,
+          "name": "京懋泰閤",
+          "build_type": 1
+        },
+        "trans_rep_year": "113年",
+        "tag": [
+          "低樓層",
+          "平面車位"
+        ],
+        "park_type_str": "平面車位",
+        "match_type": 0,
+        "tips": "",
+        "park_count": 1,
+        "history_trans_count": 1,
+        "is_new_tag": 0,
+        "assoc_type": 0,
+        "business_circle_id": 0,
+        "build_date": "",
+        "original_shift_floor": "6",
+        "original_total_floor": 23,
+        "price_error": 0
+      },
+      {
+        "id": 6641815,
+        "date": "113-07-21",
+        "trans_date": "2024-07-21",
+        "month": "113-07",
+        "address": "桃園市桃園區正光路與力行路交叉口",
+        "layout": "0房",
+        "layout_v2": "0房0廳",
+        "room_search": 5,
+        "build_area": "81.52坪",
+        "build_area_v": {
+          "area": "81.5",
+          "unit": "坪"
+        },
+        "building_area": {
+          "area": "66.4",
+          "unit": "坪"
+        },
+        "building_total_price": {
+          "price": "3,405",
+          "unit": "萬"
+        },
+        "real_park_area": {
+          "area": "15.1",
+          "unit": "坪",
+          "estimate": 0
+        },
+        "unit_price": {
+          "price": "51.3",
+          "unit": "萬/坪"
+        },
+        "src_unit_price": {
+          "price": "46.2",
+          "unit": "萬/坪"
+        },
+        "total_price": "3,765萬",
+        "total_price_v": "3,765",
+        "price_tips": "",
+        "context": "",
+        "is_special": 0,
+        "has_park": "1",
+        "unit_has_park": "0",
+        "shift_floor": "9樓",
+        "shift_floor_val": "9",
+        "total_floor": "23樓",
+        "build_purpose_str": "住宅",
+        "real_park_total_price": "360",
+        "real_park_total_price_v": {
+          "price": "360",
+          "unit": "萬",
+          "estimate": 0
+        },
+        "community": {
+          "id": 5886292,
+          "name": "京懋泰閤",
+          "build_type": 1
+        },
+        "trans_rep_year": "113年",
+        "tag": [
+          "中樓層",
+          "平面車位"
+        ],
+        "park_type_str": "平面車位",
+        "match_type": 0,
+        "tips": "",
+        "park_count": 2,
+        "history_trans_count": 1,
+        "is_new_tag": 0,
+        "assoc_type": 0,
+        "business_circle_id": 0,
+        "build_date": "",
+        "original_shift_floor": "9",
+        "original_total_floor": 23,
+        "price_error": 0
+      },
+      {
+        "id": 6625314,
+        "date": "113-07-15",
+        "trans_date": "2024-07-15",
+        "month": "113-07",
+        "address": "桃園市桃園區正光路與力行路交叉口",
+        "layout": "0房",
+        "layout_v2": "0房0廳",
+        "room_search": 5,
+        "build_area": "76.18坪",
+        "build_area_v": {
+          "area": "76.2",
+          "unit": "坪"
+        },
+        "building_area": {
+          "area": "68.6",
+          "unit": "坪"
+        },
+        "building_total_price": {
+          "price": "3,758",
+          "unit": "萬"
+        },
+        "real_park_area": {
+          "area": "7.6",
+          "unit": "坪",
+          "estimate": 0
+        },
+        "unit_price": {
+          "price": "54.8",
+          "unit": "萬/坪"
+        },
+        "src_unit_price": {
+          "price": "52.0",
+          "unit": "萬/坪"
+        },
+        "total_price": "3,958萬",
+        "total_price_v": "3,958",
+        "price_tips": "",
+        "context": "",
+        "is_special": 0,
+        "has_park": "1",
+        "unit_has_park": "0",
+        "shift_floor": "20樓",
+        "shift_floor_val": "20",
+        "total_floor": "23樓",
+        "build_purpose_str": "住宅",
+        "real_park_total_price": "200",
+        "real_park_total_price_v": {
+          "price": "200",
+          "unit": "萬",
+          "estimate": 0
+        },
+        "community": {
+          "id": 5886292,
+          "name": "京懋泰閤",
+          "build_type": 1
+        },
+        "trans_rep_year": "113年",
+        "tag": [
+          "高樓層",
+          "平面車位"
+        ],
+        "park_type_str": "平面車位",
+        "match_type": 0,
+        "tips": "",
+        "park_count": 1,
+        "history_trans_count": 1,
+        "is_new_tag": 0,
+        "assoc_type": 0,
+        "business_circle_id": 0,
+        "build_date": "",
+        "original_shift_floor": "20",
+        "original_total_floor": 23,
+        "price_error": 0
+      },
+      {
+        "id": 6608038,
+        "date": "113-07-07",
+        "trans_date": "2024-07-07",
+        "month": "113-07",
+        "address": "桃園市桃園區正光路與力行路交叉口",
+        "layout": "0房",
+        "layout_v2": "0房0廳",
+        "room_search": 5,
+        "build_area": "81.52坪",
+        "build_area_v": {
+          "area": "81.5",
+          "unit": "坪"
+        },
+        "building_area": {
+          "area": "66.4",
+          "unit": "坪"
+        },
+        "building_total_price": {
+          "price": "3,410",
+          "unit": "萬"
+        },
+        "real_park_area": {
+          "area": "15.1",
+          "unit": "坪",
+          "estimate": 0
+        },
+        "unit_price": {
+          "price": "51.3",
+          "unit": "萬/坪"
+        },
+        "src_unit_price": {
+          "price": "46.6",
+          "unit": "萬/坪"
+        },
+        "total_price": "3,800萬",
+        "total_price_v": "3,800",
+        "price_tips": "",
+        "context": "",
+        "is_special": 0,
+        "has_park": "1",
+        "unit_has_park": "0",
+        "shift_floor": "13樓",
+        "shift_floor_val": "13",
+        "total_floor": "23樓",
+        "build_purpose_str": "住宅",
+        "real_park_total_price": "390",
+        "real_park_total_price_v": {
+          "price": "390",
+          "unit": "萬",
+          "estimate": 0
+        },
+        "community": {
+          "id": 5886292,
+          "name": "京懋泰閤",
+          "build_type": 1
+        },
+        "trans_rep_year": "113年",
+        "tag": [
+          "中樓層",
+          "平面車位"
+        ],
+        "park_type_str": "平面車位",
+        "match_type": 0,
+        "tips": "",
+        "park_count": 2,
+        "history_trans_count": 1,
+        "is_new_tag": 0,
+        "assoc_type": 0,
+        "business_circle_id": 0,
+        "build_date": "",
+        "original_shift_floor": "13",
+        "original_total_floor": 23,
+        "price_error": 0
+      },
+      {
+        "id": 6608037,
+        "date": "113-07-06",
+        "trans_date": "2024-07-06",
+        "month": "113-07",
+        "address": "桃園市桃園區正光路與力行路交叉口",
+        "layout": "0房",
+        "layout_v2": "0房0廳",
+        "room_search": 5,
+        "build_area": "90.44坪",
+        "build_area_v": {
+          "area": "90.4",
+          "unit": "坪"
+        },
+        "building_area": {
+          "area": "75.3",
+          "unit": "坪"
+        },
+        "building_total_price": {
+          "price": "3,848",
+          "unit": "萬"
+        },
+        "real_park_area": {
+          "area": "15.1",
+          "unit": "坪",
+          "estimate": 0
+        },
+        "unit_price": {
+          "price": "51.1",
+          "unit": "萬/坪"
+        },
+        "src_unit_price": {
+          "price": "46.9",
+          "unit": "萬/坪"
+        },
+        "total_price": "4,238萬",
+        "total_price_v": "4,238",
+        "price_tips": "",
+        "context": "",
+        "is_special": 0,
+        "has_park": "1",
+        "unit_has_park": "0",
+        "shift_floor": "5樓",
+        "shift_floor_val": "5",
+        "total_floor": "23樓",
+        "build_purpose_str": "住宅",
+        "real_park_total_price": "390",
+        "real_park_total_price_v": {
+          "price": "390",
+          "unit": "萬",
+          "estimate": 0
+        },
+        "community": {
+          "id": 5886292,
+          "name": "京懋泰閤",
+          "build_type": 1
+        },
+        "trans_rep_year": "113年",
+        "tag": [
+          "低樓層",
+          "平面車位"
+        ],
+        "park_type_str": "平面車位",
+        "match_type": 0,
+        "tips": "",
+        "park_count": 2,
+        "history_trans_count": 1,
+        "is_new_tag": 0,
+        "assoc_type": 0,
+        "business_circle_id": 0,
+        "build_date": "",
+        "original_shift_floor": "5",
+        "original_total_floor": 23,
+        "price_error": 0
+      },
+      {
+        "id": 6592017,
+        "date": "113-06-29",
+        "trans_date": "2024-06-29",
+        "month": "113-06",
+        "address": "桃園市桃園區正光路與力行路交叉口",
+        "layout": "0房",
+        "layout_v2": "0房0廳",
+        "room_search": 5,
+        "build_area": "81.52坪",
+        "build_area_v": {
+          "area": "81.5",
+          "unit": "坪"
+        },
+        "building_area": {
+          "area": "66.4",
+          "unit": "坪"
+        },
+        "building_total_price": {
+          "price": "3,286",
+          "unit": "萬"
+        },
+        "real_park_area": {
+          "area": "15.1",
+          "unit": "坪",
+          "estimate": 0
+        },
+        "unit_price": {
+          "price": "49.5",
+          "unit": "萬/坪"
+        },
+        "src_unit_price": {
+          "price": "44.7",
+          "unit": "萬/坪"
+        },
+        "total_price": "3,646萬",
+        "total_price_v": "3,646",
+        "price_tips": "",
+        "context": "",
+        "is_special": 0,
+        "has_park": "1",
+        "unit_has_park": "0",
+        "shift_floor": "16樓",
+        "shift_floor_val": "16",
+        "total_floor": "23樓",
+        "build_purpose_str": "住宅",
+        "real_park_total_price": "360",
+        "real_park_total_price_v": {
+          "price": "360",
+          "unit": "萬",
+          "estimate": 0
+        },
+        "community": {
+          "id": 5886292,
+          "name": "京懋泰閤",
+          "build_type": 1
+        },
+        "trans_rep_year": "113年",
+        "tag": [
+          "中樓層",
+          "平面車位"
+        ],
+        "park_type_str": "平面車位",
+        "match_type": 0,
+        "tips": "",
+        "park_count": 2,
+        "history_trans_count": 1,
+        "is_new_tag": 0,
+        "assoc_type": 0,
+        "business_circle_id": 0,
+        "build_date": "",
+        "original_shift_floor": "16",
+        "original_total_floor": 23,
+        "price_error": 0
+      },
+      {
+        "id": 6592016,
+        "date": "113-06-27",
+        "trans_date": "2024-06-27",
+        "month": "113-06",
+        "address": "桃園市桃園區正光路與力行路交叉口",
+        "layout": "0房",
+        "layout_v2": "0房0廳",
+        "room_search": 5,
+        "build_area": "76.18坪",
+        "build_area_v": {
+          "area": "76.2",
+          "unit": "坪"
+        },
+        "building_area": {
+          "area": "68.6",
+          "unit": "坪"
+        },
+        "building_total_price": {
+          "price": "3,703",
+          "unit": "萬"
+        },
+        "real_park_area": {
+          "area": "7.6",
+          "unit": "坪",
+          "estimate": 0
+        },
+        "unit_price": {
+          "price": "54.0",
+          "unit": "萬/坪"
+        },
+        "src_unit_price": {
+          "price": "51.2",
+          "unit": "萬/坪"
+        },
+        "total_price": "3,903萬",
+        "total_price_v": "3,903",
+        "price_tips": "",
+        "context": "",
+        "is_special": 0,
+        "has_park": "1",
+        "unit_has_park": "0",
+        "shift_floor": "23樓",
+        "shift_floor_val": "23",
+        "total_floor": "23樓",
+        "build_purpose_str": "住宅",
+        "real_park_total_price": "200",
+        "real_park_total_price_v": {
+          "price": "200",
+          "unit": "萬",
+          "estimate": 0
+        },
+        "community": {
+          "id": 5886292,
+          "name": "京懋泰閤",
+          "build_type": 1
+        },
+        "trans_rep_year": "113年",
+        "tag": [
+          "高樓層",
+          "平面車位"
+        ],
+        "park_type_str": "平面車位",
+        "match_type": 0,
+        "tips": "",
+        "park_count": 1,
+        "history_trans_count": 1,
+        "is_new_tag": 0,
+        "assoc_type": 0,
+        "business_circle_id": 0,
+        "build_date": "",
+        "original_shift_floor": "23",
+        "original_total_floor": 23,
+        "price_error": 0
+      },
+      {
+        "id": 6592015,
+        "date": "113-06-26",
+        "trans_date": "2024-06-26",
+        "month": "113-06",
+        "address": "桃園市桃園區正光路與力行路交叉口",
+        "layout": "0房",
+        "layout_v2": "0房0廳",
+        "room_search": 5,
+        "build_area": "83.73坪",
+        "build_area_v": {
+          "area": "83.7",
+          "unit": "坪"
+        },
+        "building_area": {
+          "area": "68.6",
+          "unit": "坪"
+        },
+        "building_total_price": {
+          "price": "3,497",
+          "unit": "萬"
+        },
+        "real_park_area": {
+          "area": "15.1",
+          "unit": "坪",
+          "estimate": 0
+        },
+        "unit_price": {
+          "price": "51.0",
+          "unit": "萬/坪"
+        },
+        "src_unit_price": {
+          "price": "46.5",
+          "unit": "萬/坪"
+        },
+        "total_price": "3,897萬",
+        "total_price_v": "3,897",
+        "price_tips": "",
+        "context": "",
+        "is_special": 0,
+        "has_park": "1",
+        "unit_has_park": "0",
+        "shift_floor": "13樓",
+        "shift_floor_val": "13",
+        "total_floor": "23樓",
+        "build_purpose_str": "住宅",
+        "real_park_total_price": "400",
+        "real_park_total_price_v": {
+          "price": "400",
+          "unit": "萬",
+          "estimate": 0
+        },
+        "community": {
+          "id": 5886292,
+          "name": "京懋泰閤",
+          "build_type": 1
+        },
+        "trans_rep_year": "113年",
+        "tag": [
+          "中樓層",
+          "平面車位"
+        ],
+        "park_type_str": "平面車位",
+        "match_type": 0,
+        "tips": "",
+        "park_count": 2,
+        "history_trans_count": 1,
+        "is_new_tag": 0,
+        "assoc_type": 0,
+        "business_circle_id": 0,
+        "build_date": "",
+        "original_shift_floor": "13",
+        "original_total_floor": 23,
+        "price_error": 0
+      },
+      {
+        "id": 6592014,
+        "date": "113-06-25",
+        "trans_date": "2024-06-25",
+        "month": "113-06",
+        "address": "桃園市桃園區正光路與力行路交叉口",
+        "layout": "0房",
+        "layout_v2": "0房0廳",
+        "room_search": 5,
+        "build_area": "81.52坪",
+        "build_area_v": {
+          "area": "81.5",
+          "unit": "坪"
+        },
+        "building_area": {
+          "area": "66.4",
+          "unit": "坪"
+        },
+        "building_total_price": {
+          "price": "3,270",
+          "unit": "萬"
+        },
+        "real_park_area": {
+          "area": "15.1",
+          "unit": "坪",
+          "estimate": 0
+        },
+        "unit_price": {
+          "price": "49.2",
+          "unit": "萬/坪"
+        },
+        "src_unit_price": {
+          "price": "45.0",
+          "unit": "萬/坪"
+        },
+        "total_price": "3,670萬",
+        "total_price_v": "3,670",
+        "price_tips": "",
+        "context": "",
+        "is_special": 0,
+        "has_park": "1",
+        "unit_has_park": "0",
+        "shift_floor": "15樓",
+        "shift_floor_val": "15",
+        "total_floor": "23樓",
+        "build_purpose_str": "住宅",
+        "real_park_total_price": "400",
+        "real_park_total_price_v": {
+          "price": "400",
+          "unit": "萬",
+          "estimate": 0
+        },
+        "community": {
+          "id": 5886292,
+          "name": "京懋泰閤",
+          "build_type": 1
+        },
+        "trans_rep_year": "113年",
+        "tag": [
+          "中樓層",
+          "平面車位"
+        ],
+        "park_type_str": "平面車位",
+        "match_type": 0,
+        "tips": "",
+        "park_count": 2,
+        "history_trans_count": 1,
+        "is_new_tag": 0,
+        "assoc_type": 0,
+        "business_circle_id": 0,
+        "build_date": "",
+        "original_shift_floor": "15",
+        "original_total_floor": 23,
+        "price_error": 0
+      },
+      {
+        "id": 6592013,
+        "date": "113-06-22",
+        "trans_date": "2024-06-22",
+        "month": "113-06",
+        "address": "桃園市桃園區正光路與力行路交叉口",
+        "layout": "0房",
+        "layout_v2": "0房0廳",
+        "room_search": 5,
+        "build_area": "82.89坪",
+        "build_area_v": {
+          "area": "82.9",
+          "unit": "坪"
+        },
+        "building_area": {
+          "area": "75.3",
+          "unit": "坪"
+        },
+        "building_total_price": {
+          "price": "3,748",
+          "unit": "萬"
+        },
+        "real_park_area": {
+          "area": "7.6",
+          "unit": "坪",
+          "estimate": 0
+        },
+        "unit_price": {
+          "price": "49.7",
+          "unit": "萬/坪"
+        },
+        "src_unit_price": {
+          "price": "47.5",
+          "unit": "萬/坪"
+        },
+        "total_price": "3,938萬",
+        "total_price_v": "3,938",
+        "price_tips": "",
+        "context": "",
+        "is_special": 0,
+        "has_park": "1",
+        "unit_has_park": "0",
+        "shift_floor": "7樓",
+        "shift_floor_val": "7",
+        "total_floor": "23樓",
+        "build_purpose_str": "住宅",
+        "real_park_total_price": "190",
+        "real_park_total_price_v": {
+          "price": "190",
+          "unit": "萬",
+          "estimate": 0
+        },
+        "community": {
+          "id": 5886292,
+          "name": "京懋泰閤",
+          "build_type": 1
+        },
+        "trans_rep_year": "113年",
+        "tag": [
+          "低樓層",
+          "平面車位"
+        ],
+        "park_type_str": "平面車位",
+        "match_type": 0,
+        "tips": "",
+        "park_count": 1,
+        "history_trans_count": 1,
+        "is_new_tag": 0,
+        "assoc_type": 0,
+        "business_circle_id": 0,
+        "build_date": "",
+        "original_shift_floor": "7",
+        "original_total_floor": 23,
+        "price_error": 0
+      },
+      {
+        "id": 6574460,
+        "date": "113-06-13",
+        "trans_date": "2024-06-13",
+        "month": "113-06",
+        "address": "桃園市桃園區正光路與力行路交叉口",
+        "layout": "0房",
+        "layout_v2": "0房0廳",
+        "room_search": 5,
+        "build_area": "83.73坪",
+        "build_area_v": {
+          "area": "83.7",
+          "unit": "坪"
+        },
+        "building_area": {
+          "area": "68.6",
+          "unit": "坪"
+        },
+        "building_total_price": {
+          "price": "3,480",
+          "unit": "萬"
+        },
+        "real_park_area": {
+          "area": "15.1",
+          "unit": "坪",
+          "estimate": 0
+        },
+        "unit_price": {
+          "price": "50.7",
+          "unit": "萬/坪"
+        },
+        "src_unit_price": {
+          "price": "46.3",
+          "unit": "萬/坪"
+        },
+        "total_price": "3,880萬",
+        "total_price_v": "3,880",
+        "price_tips": "",
+        "context": "",
+        "is_special": 0,
+        "has_park": "1",
+        "unit_has_park": "0",
+        "shift_floor": "2樓",
+        "shift_floor_val": "2",
+        "total_floor": "23樓",
+        "build_purpose_str": "住宅",
+        "real_park_total_price": "400",
+        "real_park_total_price_v": {
+          "price": "400",
+          "unit": "萬",
+          "estimate": 0
+        },
+        "community": {
+          "id": 5886292,
+          "name": "京懋泰閤",
+          "build_type": 1
+        },
+        "trans_rep_year": "113年",
+        "tag": [
+          "低樓層",
+          "平面車位"
+        ],
+        "park_type_str": "平面車位",
+        "match_type": 0,
+        "tips": "",
+        "park_count": 2,
+        "history_trans_count": 1,
+        "is_new_tag": 0,
+        "assoc_type": 0,
+        "business_circle_id": 0,
+        "build_date": "",
+        "original_shift_floor": "2",
+        "original_total_floor": 23,
+        "price_error": 0
+      },
+      {
+        "id": 6553781,
+        "date": "113-06-02",
+        "trans_date": "2024-06-02",
+        "month": "113-06",
+        "address": "桃園市桃園區正光路與力行路交叉口",
+        "layout": "0房",
+        "layout_v2": "0房0廳",
+        "room_search": 5,
+        "build_area": "83.73坪",
+        "build_area_v": {
+          "area": "83.7",
+          "unit": "坪"
+        },
+        "building_area": {
+          "area": "68.6",
+          "unit": "坪"
+        },
+        "building_total_price": {
+          "price": "3,535",
+          "unit": "萬"
+        },
+        "real_park_area": {
+          "area": "15.1",
+          "unit": "坪",
+          "estimate": 0
+        },
+        "unit_price": {
+          "price": "51.5",
+          "unit": "萬/坪"
+        },
+        "src_unit_price": {
+          "price": "47.0",
+          "unit": "萬/坪"
+        },
+        "total_price": "3,935萬",
+        "total_price_v": "3,935",
+        "price_tips": "",
+        "context": "",
+        "is_special": 0,
+        "has_park": "1",
+        "unit_has_park": "0",
+        "shift_floor": "19樓",
+        "shift_floor_val": "19",
+        "total_floor": "23樓",
+        "build_purpose_str": "住宅",
+        "real_park_total_price": "400",
+        "real_park_total_price_v": {
+          "price": "400",
+          "unit": "萬",
+          "estimate": 0
+        },
+        "community": {
+          "id": 5886292,
+          "name": "京懋泰閤",
+          "build_type": 1
+        },
+        "trans_rep_year": "113年",
+        "tag": [
+          "高樓層",
+          "平面車位"
+        ],
+        "park_type_str": "平面車位",
+        "match_type": 0,
+        "tips": "",
+        "park_count": 2,
+        "history_trans_count": 1,
+        "is_new_tag": 0,
+        "assoc_type": 0,
+        "business_circle_id": 0,
+        "build_date": "",
+        "original_shift_floor": "19",
+        "original_total_floor": 23,
+        "price_error": 0
+      }
+    ],
+    "per_page": 20,
+    "page": 2,
+    "total_page": 6,
+    "total": 103,
+    "has_sale_ctrl": 1,
+    "region_id": 6,
+    "meta": {
+      "title": "桃園京懋泰閤實價登錄查詢 - 591實價登錄",
+      "og_title": "桃園京懋泰閤實價登錄查詢 - 591實價登錄",
+      "og_image": "https://img1.591.com.tw/house/2026/03/09/177301808162782509.jpg!338x252.jpg",
+      "keywords": "京懋泰閤,京懋泰閤社區,桃園京懋泰閤,京懋泰閤實價登錄查詢",
+      "description": "591為您提供：桃園社區京懋泰閤實價登錄查詢，共103筆成交記錄，更多京懋泰閤成交情報，歡迎諮詢社區專家田馥禎。"
+    },
+    "trans_rep_years": [
+      {
+        "title": "近三個月",
+        "val": "-3"
+      },
+      {
+        "title": "近半年",
+        "val": "-6"
+      },
+      {
+        "title": "近一年",
+        "val": "-12"
+      },
+      {
+        "title": "115年",
+        "val": 115
+      },
+      {
+        "title": "114年",
+        "val": 114
+      },
+      {
+        "title": "113年",
+        "val": 113
+      },
+      {
+        "title": "112年",
+        "val": 112
+      },
+      {
+        "title": "111年",
+        "val": 111
+      }
+    ],
+    "address_condition": [
+      {
+        "title": "力行路",
+        "val": "19484____"
+      },
+      {
+        "title": "正光路",
+        "val": "69552____"
+      }
+    ],
+    "special_num": 103,
+    "community_park": {
+      "community_id": 5886292,
+      "community_name": "京懋泰閤",
+      "build_type": 1,
+      "unit_price": "0.00",
+      "total_price": "0.00",
+      "area": "0.00"
+    }
+  }
+}

@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import csv
 import json
 import sys
 import time
@@ -11,6 +12,7 @@ COMMUNITY_ID = 5886292
 PAGE_SIZE = 20
 BASE_URL = "https://bff-market.591.com.tw/v1/price/list"
 OUT_DIR = Path("591_export")
+SOURCE_URL = "https://market.591.com.tw/5886292/price?guide=1&trans_type=2"
 
 
 def fetch_page(session: requests.Session, page: int) -> dict:
@@ -37,6 +39,21 @@ def fetch_page(session: requests.Session, page: int) -> dict:
     raise RuntimeError(f"Failed to fetch page {page}: {last_error}")
 
 
+def pick(mapping, *path, default=""):
+    value = mapping
+    for key in path:
+        if not isinstance(value, dict):
+            return default
+        value = value.get(key)
+    return default if value is None else value
+
+
+def number_text(value):
+    if value is None:
+        return ""
+    return str(value).replace(",", "").replace("萬", "").replace("坪", "").replace("樓", "").strip()
+
+
 def main() -> int:
     OUT_DIR.mkdir(exist_ok=True)
     session = requests.Session()
@@ -44,7 +61,7 @@ def main() -> int:
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
         "Accept": "application/json, text/plain, */*",
         "Accept-Language": "zh-TW,zh;q=0.9,en;q=0.8",
-        "Referer": f"https://market.591.com.tw/{COMMUNITY_ID}/price?guide=1&trans_type=2",
+        "Referer": SOURCE_URL,
         "Origin": "https://market.591.com.tw",
         "device": "pc",
         "deviceid": "591-export-jingmao",
@@ -72,6 +89,47 @@ def main() -> int:
             continue
         seen.add(key)
         deduped.append(item)
+
+    fields = [
+        "id", "成交日期", "成交年月_民國", "成交年月_西元", "樓層", "總樓層",
+        "單價_萬每坪_不含車位", "原始單價_萬每坪_含車位", "房屋總價_萬_不含車位",
+        "車位總價_萬", "成交總價_萬_含車位", "房屋坪數_坪_不含車位", "車位坪數_坪",
+        "總坪數_坪_含車位", "車位數", "車位類型", "房型", "特殊交易", "特殊交易說明",
+        "樓層標籤", "地址", "建案名稱", "來源網址"
+    ]
+    with (OUT_DIR / "jingmao_591_103.csv").open("w", encoding="utf-8-sig", newline="") as fh:
+        writer = csv.DictWriter(fh, fieldnames=fields)
+        writer.writeheader()
+        for item in deduped:
+            trans_date = str(item.get("trans_date") or "")
+            month_roc = str(item.get("month") or "")
+            month_ad = trans_date[:7] if len(trans_date) >= 7 else ""
+            tags = item.get("tag") or []
+            writer.writerow({
+                "id": item.get("id", ""),
+                "成交日期": trans_date,
+                "成交年月_民國": month_roc,
+                "成交年月_西元": month_ad,
+                "樓層": number_text(item.get("shift_floor_val") or item.get("original_shift_floor") or item.get("shift_floor")),
+                "總樓層": number_text(item.get("original_total_floor") or item.get("total_floor")),
+                "單價_萬每坪_不含車位": number_text(pick(item, "unit_price", "price")),
+                "原始單價_萬每坪_含車位": number_text(pick(item, "src_unit_price", "price")),
+                "房屋總價_萬_不含車位": number_text(pick(item, "building_total_price", "price")),
+                "車位總價_萬": number_text(item.get("real_park_total_price") or pick(item, "real_park_total_price_v", "price")),
+                "成交總價_萬_含車位": number_text(item.get("total_price_v") or item.get("total_price")),
+                "房屋坪數_坪_不含車位": number_text(pick(item, "building_area", "area")),
+                "車位坪數_坪": number_text(pick(item, "real_park_area", "area")),
+                "總坪數_坪_含車位": number_text(pick(item, "build_area_v", "area") or item.get("build_area")),
+                "車位數": item.get("park_count", ""),
+                "車位類型": item.get("park_type_str", ""),
+                "房型": item.get("layout_v2") or item.get("layout") or "",
+                "特殊交易": "是" if int(item.get("is_special") or 0) == 1 else "否",
+                "特殊交易說明": item.get("context") or item.get("tips") or "",
+                "樓層標籤": "、".join(str(x) for x in tags),
+                "地址": item.get("address", ""),
+                "建案名稱": pick(item, "community", "name"),
+                "來源網址": SOURCE_URL,
+            })
 
     summary = {
         "reported_total": total,
